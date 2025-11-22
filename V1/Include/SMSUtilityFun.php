@@ -18,9 +18,9 @@ function SendOtp($mobile, $otp){
 
 function SendOtpViaTwilio($mobile, $otp){
     // Client
-    $twilioAccountSid = 'AC5e7a42356c0e36b3563f5f48a9d48d61';
-    $twilioAccountToken = '38a216bf8572ae4b5657a1687e9fa77f';
-    $twilioMessagingServiceSid = 'MG477c2448b29579d05ddad9d1eff6ed7b';
+    $twilioAccountSid = '';
+    $twilioAccountToken = '';
+    $twilioMessagingServiceSid = '';
 
     $toNumber = $mobile;
     $message = 'Welcome to CARDsKING. Your OTP for mobile verification is '.$otp.'. Thank You, CARDsKING.';
